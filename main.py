@@ -11,9 +11,8 @@ def main():
 
     # Text
     st.text("Hello World!")
-    st.text("New Line.")
-    name = "Daniel"
-    st.text(":D")
+    name = "Daniel here... :D"
+    st.text("{}".format(name))
 
 if __name__ == "__main__":
     main()
